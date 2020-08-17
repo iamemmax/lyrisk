@@ -1,0 +1,38 @@
+body{
+    background: #224156;
+    color: #f2f2f2;
+}
+nav{
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    position: relative;
+    text-align: center;
+    left: -14rem;
+    top: -2rem;
+    background: #f2f2f2;
+    width: 10rem;
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    line-height: 5rem;
+    flex-direction: column;
+    transition: transform 0.5s ease-in;
+}
+ul li a{
+    text-decoration: none;
+    color: #224156;
+}
+
+i{
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 999;
+    color: aqua;
+    position: absolute;
+}
+
+.show{
+    transform: translateX(100%);
+}
